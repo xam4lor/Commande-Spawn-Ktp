@@ -1,0 +1,25 @@
+/summon FallingSand ~ ~50 ~ 
+	{Time:1,Block:command_block,TileEntityData:{Command:/setblock -1 126 7 minecraft:command_block 0 replace {Command:/setblock ~ ~1 ~ air}},Riding:
+		{Time:1,id:FallingSand,Block:command_block,TileEntityData:{Command:/setblock 0 126 7 minecraft:command_block 0 replace {Command:/spawnpoint @a 0 135 0}},Riding:
+			{Time:1,id:FallingSand,Block:command_block,TileEntityData:{Command:/setblock 1 126 7 minecraft:command_block 0 replace {Command:/gamemode 0 @a}},Riding:
+				{Time:1,id:FallingSand,Block:command_block,TileEntityData:{Command:/setblock 2 126 7 minecraft:command_block 0 replace {Command:/weather clear}},Riding:
+					{Time:1,id:FallingSand,Block:command_block,TileEntityData:{Command:/setblock 3 126 7 minecraft:command_block 0 replace {Command:/effect @a minecraft:resistance 30 255}},Riding:
+						{Time:1,id:FallingSand,Block:command_block,TileEntityData:{Command:/setblock -2 125 0 minecraft:command_block 0 replace {Command:/setblock ~ ~1 ~ minecraft:stone}},Riding:
+							{Time:1,id:FallingSand,Block:command_block,TileEntityData:{Command:/setblock -3 126 0 minecraft:command_block 0 replace {Command:/weather clear}},Riding:
+								{Time:1,id:FallingSand,Block:command_block,TileEntityData:{Command:/setblock -2 126 -1 minecraft:command_block 0 replace {Command:/time set day}},Riding:
+									{Time:1,id:FallingSand,Block:command_block,TileEntityData:{Command:/setblock -1 125 -2 minecraft:command_block 0 replace {Command:/setblock -2 126 0 minecraft:stone}},Riding:
+										{Time:1,id:FallingSand,Block:command_block,TileEntityData:{Command:/setblock -1 124 -1 minecraft:stone_slab 15},Riding:
+											{Time:1,id:FallingSand,Block:command_block,TileEntityData:{Command:/setblock -1 125 -1 minecraft:unpowered_repeater},Riding:
+												{Time:1,id:FallingSand,Block:command_block,TileEntityData:{Command:/setblock -2 126 0 minecraft:redstone_block},Riding:
+													{Time:1,id:FallingSand,Block:command_block,TileEntityData:{Command:/setblock -1 126 3 minecraft:command_block 0 replace {Command:/scoreboard teams join VERTS @a[x=6,y=130,z=6,r=2]}},Riding:
+														{Time:1,id:FallingSand,Block:command_block,TileEntityData:{Command:/setblock -2 126 3 minecraft:command_block 0 replace {Command:/scoreboard teams join JAUNES @a[x=6,y=130,z=-6,r=2]}},Riding:
+															{Time:1,id:FallingSand,Block:command_block,TileEntityData:{Command:/setblock -1 125 2 minecraft:command_block 0 replace {Command:/fill ~-1 ~1 ~ ~ ~1 ~ minecraft:stone}},Riding:
+																{Time:1,id:FallingSand,Block:command_block,TileEntityData:{Command:/setblock -2 125 2 minecraft:command_block 0 replace {Command:/scoreboard teams join ROUGES @a[x=-6,y=130,z=-6,r=2]}},Riding:
+																	{Time:1,id:FallingSand,Block:command_block,TileEntityData:{Command:/kill @e[type=Item,r=30]},Riding:
+																		{Time:1,id:FallingSand,Block:command_block,TileEntityData:{Command:/fill 2 127 5 -1 127 7 minecraft:redstone_wire},Riding:
+																					{Time:1,id:FallingSand,Block:command_block,TileEntityData:{Command:/setblock -1 127 7 minecraft:air},Riding:
+																						{Time:1,id:FallingSand,Block:command_block,TileEntityData:{Command:/setblock -1 126 2 minecraft:redstone_block},Riding:
+																							{Time:1,id:FallingSand,Block:command_block,TileEntityData:{Command:/setblock -1 126 7 minecraft:command_block 0 replace {Command:/setblock ~ ~1 ~ air}},Riding:
+																								{Time:1,id:FallingSand,Block:command_block,TileEntityData:{Command:/fill 0 127 7 3 127 7 minecraft:redstone_wire},Riding:
+																									{Time:1,id:FallingSand,Block:command_block,TileEntityData:{Command:/setblock 3 127 6 minecraft:redstone_wire},Riding:
+}}}}}}}}}}}}}}}}}}}}}}}
