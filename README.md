@@ -1,5 +1,5 @@
 # Commande-Spawn-Ktp
-Command in 2 commands blocks to spawn a KTP structure.
+2 commands blocks that spawns a KTP Minecraft structure.
 
 Pour utiliser cette structure, allez en '30 0 30' ('/tp @p 30 0 30') puis rentrez le contenu du fichier 'commande 1' dans un commande bloc ('/give @p minecraft:command_block').
 A deux blocks de ce commande bloc, posez-en un autre et rentrez le contenu du fichier 'commande 2'.
